@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Pratiksha Devidas Tathe - Software Developer">
+    <meta name="author" content="Pratiksha Tathe">
+    <title>Pratiksha Tathe | Software Developer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- AOS Animation Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- the little bar at the very top showing scroll progress -->
+    <div id="progress-bar"></div>
+
+    <!-- main nav that stays on top while you scroll -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">PRATIKSHA<span class="logo-accent">.</span></a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#certificates" class="nav-link">Certificates</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <a href="resume.pdf" download class="btn resume-btn" id="resume-btn-sm">Download Resume</a>
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+<!-- hero / intro section right at the top -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content" data-aos="fade-right">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-name">Pratiksha Tathe</h1>
+                <h2 class="hero-role"><span id="typed-text"></span><span class="typed-cursor">|</span></h2>
+<p class="hero-desc">
+                    A passionate Software Developer with Python, building
+                    modern, responsive, and user-friendly web and front-end applications.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary"><i class="fas fa-briefcase"></i> View Projects</a>
+                    <a href="resume.pdf" download class="btn btn-outline"><i class="fas fa-download"></i> Download Resume</a>
+                </div>
+                <div class="hero-socials">
+                    <a href="https://linkedin.com/in/pratiksha-tathe" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/Pratiksha-DT" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="mailto:pratikshatathe18@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+<div class="hero-image" data-aos="fade-left">
+                <div class="hero-img-wrapper">
+                    <img src="assets/images/Image.jpeg" alt="Pratiksha Tathe" class="hero-image-photo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="hero-img-placeholder" style="display:none;">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <div class="hero-blob"></div>
+                </div>
+            </div>
+        </div>
+        <a href="#about" class="scroll-down"><i class="fas fa-chevron-down"></i></a>
+    </section>
+
+<!-- about me section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <p class="section-subtitle">Get To Know Me</p>
+                <h2 class="section-title">About <span>Me</span></h2>
+            </div>
+            <div class="about-grid">
+<div class="about-image" data-aos="fade-right">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-face flip-card-front">
+                                <img src="assets/images/Images.jpeg" alt="Pratiksha Tathe photo" onerror="this.style.display='none'; this.parentElement.parentElement.classList.add('photo-missing');">
+                            </div>
+                            <div class="flip-card-face flip-card-back">
+                                <div class="about-logo">
+                                    <i class="fas fa-user-tie"></i>
+                                    <h3>Pratiksha Tathe</h3>
+                                    <span>Software Developer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-content" data-aos="fade-left">
+                    <h3>Software Developer</h3>
+<p>
+                        I'm a B.Tech graduate in Computer Science from Punyshlok Ahilyadevi Holkar
+                        Solapur University. I'm passionate about creating clean, efficient, and
+                        responsive web applications, with Python as my primary language and a
+                        strong command of front-end technologies. I enjoy solving problems and
+                        turning ideas into reality.
+                    </p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div><strong>Email</strong><span>pratikshatathe18@gmail.com</span></div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <div><strong>Phone</strong><span>+91 7385120032</span></div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-location-dot"></i>
+                            <div><strong>Location</strong><span>Pandharpur, Dist. Solapur</span></div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div><strong>Degree</strong><span>B.Tech in Computer Science</span></div>
+                        </div>
+                    </div>
+                    <a href="resume.pdf" download class="btn btn-primary"><i class="fas fa-download"></i> Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- skills i know -->
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <p class="section-subtitle">What I Can Do</p>
+                <h2 class="section-title">My <span>Skills</span></h2>
+            </div>
+<div class="skills-grid">
+                <!-- Python is my main language -->
+                <div class="skill-card" data-aos="zoom-in" data-aos-delay="0">
+                    <div class="skill-icon"><i class="fab fa-python"></i></div>
+<h3>Python</h3>
+                </div>
+                <!-- then the front-end stuff -->
+                <div class="skill-card" data-aos="zoom-in" data-aos-delay="50">
+                    <div class="skill-icon"><i class="fab fa-html5"></i></div>
+<h3>HTML</h3>
+                </div>
+                <div class="skill-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+<h3>CSS</h3>
+                </div>
+                <div class="skill-card" data-aos="zoom-in" data-aos-delay="150">
+                    <div class="skill-icon"><i class="fab fa-js"></i></div>
+<h3>JavaScript</h3>
+                </div>
+                <div class="skill-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="skill-icon"><i class="fab fa-bootstrap"></i></div>
+<h3>Bootstrap</h3>
+                </div>
+                <div class="skill-card" data-aos="zoom-in" data-aos-delay="250">
+                    <div class="skill-icon"><i class="fas fa-database"></i></div>
+<h3>SQL</h3>
+                </div>
+                <div class="skill-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="skill-icon"><i class="fas fa-bug"></i></div>
+<h3>Manual Testing</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- my projects -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <p class="section-subtitle">My Recent Work</p>
+                <h2 class="section-title">Featured <span>Projects</span></h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-img">
+                        <img src="assets/images/project1.jpg" alt="Online Student Management System" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="project-img-placeholder" style="display:none;"><i class="fas fa-graduation-cap"></i></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Online Student Management System</h3>
+                        <p>Developed modules for attendance and feedback. The Feedback module allows anonymous student submissions, faculty-generated questions, and percentage-based performance reports. The Attendance module enables faculty to record class-wise attendance by date, subject, and session.</p>
+                        <div class="project-tech">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>SQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-img">
+                        <img src="assets/images/project2.jpg" alt="Online Blood Management System" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="project-img-placeholder" style="display:none;"><i class="fas fa-droplet"></i></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Online Blood Management System</h3>
+                        <p>A web-based platform for blood donation and tracking, enabling users to register as donors, search for blood groups, and manage donation records. The system facilitates efficient donor-recipient matching and real-time availability tracking during emergencies.</p>
+                        <div class="project-tech">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>SQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- work experience / internship -->
+    <section id="experience" class="section timeline-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <p class="section-subtitle">My Journey</p>
+                <h2 class="section-title">Internship & <span>Experience</span></h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Internship</div>
+                        <h3>Intern Software Developer</h3>
+                        <h4>CodingEra Software Pvt Ltd, Pune</h4>
+                        <ul>
+                            <li>Assisted in developing and maintaining web applications using HTML, CSS, JavaScript.</li>
+                            <li>Collaborated with the development team on real-time software projects.</li>
+                            <li>Learned the fundamentals of the software development lifecycle (SDLC).</li>
+                            <li>Enhanced problem-solving and teamwork skills in an agile work environment.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- certificates & achievements -->
+    <section id="certificates" class="section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <p class="section-subtitle">My Achievements</p>
+                <h2 class="section-title">Certificates & <span>Achievements</span></h2>
+            </div>
+            <div class="certs-grid">
+                <div class="cert-card" data-aos="zoom-in" data-aos-delay="50">
+                    <i class="fas fa-code"></i>
+                    <h3>Training on Front-end Web Technologies</h3>
+                    <p>Course Completion</p>
+                </div>
+                <div class="cert-card" data-aos="zoom-in" data-aos-delay="100">
+                    <i class="fas fa-database"></i>
+                    <h3>Training on PHP and MySQL</h3>
+                    <p>Course Completion</p>
+                </div>
+                <div class="cert-card" data-aos="zoom-in" data-aos-delay="150">
+                    <i class="fas fa-brain"></i>
+                    <h3>Training on Quantitative Aptitude and Logical Reasoning</h3>
+                    <p>Course Completion</p>
+                </div>
+                <div class="cert-card" data-aos="zoom-in" data-aos-delay="200">
+                    <i class="fab fa-java"></i>
+                    <h3>Java</h3>
+                    <p>Course Completion</p>
+                </div>
+                <div class="cert-card" data-aos="zoom-in" data-aos-delay="250">
+                    <i class="fas fa-trophy"></i>
+                    <h3>Event Coordinator - ACSES 2024-2025</h3>
+                    <p>Leadership & Coordination</p>
+                </div>
+                <div class="cert-card" data-aos="zoom-in" data-aos-delay="300">
+                    <i class="fas fa-users"></i>
+                    <h3>Coordinator - Institute Magazine</h3>
+                    <p>Student Coordinator</p>
+                </div>
+                <div class="cert-card" data-aos="zoom-in" data-aos-delay="350">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Coordinator - Hackathon</h3>
+                    <p>Spectrum Program Coordinator</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- education timeline -->
+    <section id="education" class="section timeline-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <p class="section-subtitle">My Education</p>
+                <h2 class="section-title">Education <span>Journey</span></h2>
+            </div>
+            <div class="timeline education-timeline">
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2021 - 2025</div>
+                        <h3>Bachelor of Technology (B.Tech)</h3>
+                        <h4>Punyshlok Ahilyadevi Holkar Solapur University</h4>
+                        <p>Computer Science Engineering</p>
+                        <div class="score-badge">CGPA/Percentage: 9.6</div>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2020 - 2021</div>
+                        <h3>Higher Secondary Education (HSC)</h3>
+                        <h4>Maharashtra State Board</h4>
+                        <p>Science Stream</p>
+                        <div class="score-badge">Percentage: 87.50%</div>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2018 - 2019</div>
+                        <h3>Secondary Education (SSC)</h3>
+                        <h4>Maharashtra State Board</h4>
+                        <p>Schooling</p>
+                        <div class="score-badge">Percentage: 88.20%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- contact / reach me -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <p class="section-subtitle">Get In Touch</p>
+                <h2 class="section-title">Contact <span>Me</span></h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Let's Work Together</h3>
+                    <p>I'm open to opportunities, collaborations, and projects. Feel free to reach out!</p>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div><strong>Email</strong><span>pratikshatathe18@gmail.com</span></div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div><strong>Phone</strong><span>+91 7385120032</span></div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-location-dot"></i>
+                        <div><strong>Location</strong><span>Pandharpur, Dist. Solapur</span></div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div><strong>LinkedIn</strong><span>linkedin.com/in/pratiksha-tathe</span></div>
+                    </div>
+                    <div class="contact-socials">
+                        <a href="https://linkedin.com/in/pratiksha-tathe" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/Pratiksha-DT" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="mailto:pratikshatathe18@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" data-aos="fade-left" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block"><i class="fas fa-paper-plane"></i> Send Message</button>
+                    <p id="form-status" class="form-status"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+<!-- footer area -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <a href="#home" class="logo">Pratiksha<span class="logo-accent">.</span></a>
+                <ul class="footer-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="footer-socials">
+                    <a href="https://linkedin.com/in/pratiksha-tathe" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/pratikshatathe" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="mailto:pratikshatathe18@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <p class="footer-copy">&copy; 2026 Pratiksha Tathe. All rights reserved.</p>
+        </div>
+    </footer>
+
+<!-- back to top floating button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+    <!-- AOS animation script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- my custom js -->
+    <script src="js/script.js"></script>
+</body>
+</html>
